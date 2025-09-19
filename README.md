@@ -2,7 +2,10 @@
 
 A simple, typed, controlled React select used in HRnet. It renders a native HTML and exposes a straightforward API with options, a selected option, and a change callback.
 
-## Import
+## Instalation
+```tsx
+npm i select-module-kihak12
+```
 
 ```tsx
 import { SelectComponent, type SelectOption } from "select-module-kihak12";
