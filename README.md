@@ -6,6 +6,7 @@ A simple, typed, controlled React select used in HRnet. It renders a native HTML
 
 ```tsx
 import { SelectComponent, type SelectOption } from "select-module-kihak12";
+import "select-module-kihak12/dist/select-react.css";
 ```
 
 ## Basic Usage
