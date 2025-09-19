@@ -5,8 +5,7 @@ A simple, typed, controlled React select used in HRnet. It renders a native HTML
 ## Import
 
 ```tsx
-import { SelectComponent } from "../../components/select-component/SelectComponent";
-import type { SelectOption } from "../../components/select-component/SelectOption";
+import { SelectComponent, type SelectOption } from "select-module-kihak12";
 ```
 
 ## Basic Usage
@@ -96,6 +95,13 @@ const selected = options.find((o) => o.key === countryKey)!;
 ```
 
 ## Styling
+
+- The library ships a compiled CSS file at `dist/select-react.css`. In most bundlers, importing the component will also include the CSS if CSS handling is enabled.
+- If your setup does not automatically load library CSS, import it once in your app entry:
+
+```ts
+import "select-module-kihak12/dist/select-react.css";
+```
 
 - Styles live in `SelectComponent.module.css`.
 - The `<select>` element uses the `select` class:

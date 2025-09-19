@@ -1,10 +1,13 @@
 {
   "name": "select-module-kihak12",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/select-react.umd.js",
   "module": "./dist/select-react.mjs",
   "types": "./dist/index.d.ts",
   "style": "./dist/select-react.css",
+  "sideEffects": [
+    "**/*.css"
+  ],
   "files": [
     "dist"
   ],
