@@ -1,6 +1,6 @@
 {
-  "name": "select-module",
-  "version": "1.0.0",
+  "name": "select-module-kihak12",
+  "version": "1.0.1",
   "main": "./dist/select-react.umd.js",
   "module": "./dist/select-react.mjs",
   "types": "./dist/index.d.ts",
